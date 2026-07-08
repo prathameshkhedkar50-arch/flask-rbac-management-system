@@ -17,6 +17,74 @@ Rather than allowing unrestricted access, every authenticated user can only perf
 The system includes multiple business modules such as users, roles, permissions, products, customers, suppliers, and orders, making it a practical example of enterprise application architecture.
 
 ---
+# ⚙️ Setup Utility
+
+The project includes a setup script that automates the initial environment configuration, making it easier to run the application without manually installing every dependency or configuring the backend.
+
+Depending on your operating system, simply execute the setup script to prepare the development environment.
+
+---
+
+## What the Setup Script Does
+
+The setup utility performs the initial project configuration by:
+
+- Creating a Python virtual environment (if it does not already exist)
+- Installing the required Python packages
+- Preparing the backend environment
+- Installing frontend dependencies (if required)
+- Verifying that required project files exist
+- Configuring the application for local development
+- Displaying useful startup information
+
+This reduces the manual setup steps required before running the application.
+
+---
+
+## Running the Setup Script
+
+### Windows
+
+```bash
+setup.bat
+```
+
+or
+
+```bash
+python setup.py
+```
+
+### Linux / macOS
+
+```bash
+python3 setup.py
+```
+
+---
+
+## After Setup
+
+Once the setup process completes successfully, start the backend server:
+
+```bash
+python run.py
+```
+
+Then start the frontend (from the dashboard directory):
+
+```bash
+npm install
+npm run dev
+```
+
+Finally, open the application in your browser.
+
+---
+
+## Why Use the Setup Script?
+
+Instead of manually creating virtual environments, installing dependencies, and configuring the project, the setup script automates the entire initialization process, helping developers get the application running more quickly and consistently.
 
 # 🎯 Project Purpose
 
