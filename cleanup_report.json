@@ -1,0 +1,21 @@
+{
+    "project_type": "Unknown",
+    "total_candidates": 2,
+    "total_recoverable_mb": 82.12,
+    "items": [
+        {
+            "type": "directory",
+            "path": "D:\\New folder\\rbac-app\\frontend\\dashboard\\node_modules",
+            "size_bytes": 86103731,
+            "classification": "SAFE_TO_DELETE",
+            "reason": "node_modules is a generated/cache/build directory"
+        },
+        {
+            "type": "directory",
+            "path": "D:\\New folder\\rbac-app\\venv\\Lib\\site-packages\\pip\\_internal\\operations\\build",
+            "size_bytes": 10315,
+            "classification": "SAFE_TO_DELETE",
+            "reason": "build is a generated/cache/build directory"
+        }
+    ]
+}
